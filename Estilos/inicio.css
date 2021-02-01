@@ -1,0 +1,114 @@
+
+/*Estilos del head*/
+.icon {
+  height: 65px;
+  width: 50px;
+}
+/*Estilos del nav-bar*/
+
+.dropdown-item:hover {
+  background-color: rgb(31, 164, 182);
+}
+/*Estilo del slider*/
+.carousel slide {
+  margin-top: 3;
+}
+.imgSlider {
+  display: block;
+  height: 550px;
+  width: 100%;
+}
+/*Estilos del body*/
+.tituloIML {
+  margin-top: 3;
+  color: rgb(31, 164, 182);
+  text-align: center;
+  font-size: 50px;
+}
+
+.card {
+  background-color: rgb(31, 164, 182);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 15px;
+  width: 20rem;
+}
+
+.card-img {
+  width: 100%;
+  height: 240px;
+}
+.card-img-text {
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+}
+.card-title {
+  text-align: center;
+}
+
+.card-back {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  text-align: justify;
+  padding: 10px;
+  color: white;
+  background-color: rgb(31, 164, 182);
+  position: absolute;
+  transform: rotateX(180deg);
+  transition: 0.5s;
+}
+.card-link {
+  color: black;
+}
+.card:hover .card-back {
+  transform: rotateX(0);
+}
+/*Estilos del footer*/
+.page-footer {
+  margin-top: 35px;
+  background-color: rgb(31, 164, 182);
+  color: white;
+}
+.page-footer li a {
+  color: white;
+  text-decoration: none;
+}
+/*Estilos de sección del contacto*/
+.card-contact{
+    margin: 20px 15px;
+    padding: 20px;
+
+}
+.card-contact:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.btn-contact{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(31, 164, 182);
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.8s ease;
+    
+}
+.btn-contact:hover {
+    background-color: rgb(131, 126, 126);
+    color: white;
+    text-decoration: none;
+}
+/*Estilos icono whatsapp*/
+.whatsapp{
+  width: 85px;
+  height: 85px;
+  display: block;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1000;
+  position: fixed;
+}

@@ -1,0 +1,40 @@
+/*Estilos head */
+.icon {
+    height:65px;
+    width:50px;
+}
+/*Estilos nav-var*/
+.dropdown-item:hover{
+    background-color: rgb(31, 164, 182);
+}
+/*Estilo formulario*/
+form{
+    margin: 50px;
+    background-color: white;
+}
+button{
+    
+    padding: 5px;
+}
+.listaFormulario li a{
+
+    color: white; 
+    text-decoration: none;
+}
+/*Estilo footer*/
+.page-footer{
+    background-color: rgb(31, 164, 182);
+    margin-top: 30px;
+    color: white;
+}
+
+/*Estilos icono whatsapp*/
+.whatsapp{
+    width: 85px;
+    height: 85px;
+    display: block;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1000;
+    position: fixed;
+  }

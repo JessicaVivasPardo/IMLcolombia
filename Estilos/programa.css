@@ -1,0 +1,69 @@
+/*Estilos del head*/
+.icon {
+  height: 65px;
+  width: 50px;
+}
+/*Estilos del nav-bar*/
+
+.dropdown-item:hover {
+  background-color: rgb(31, 164, 182);
+}
+/*Estilos del footer*/
+.page-footer {
+  margin-top: 35px;
+  background-color: rgb(31, 164, 182);
+  color: white;
+}
+.page-footer li a {
+  color: white;
+  text-decoration: none;
+}
+/*Estilo cuerpo*/
+#content {
+  height: auto;
+  margin-top: 50px;
+  max-width: auto;
+  background-color: rgb(31, 164, 182);
+  background-image: url(../Imagenes/Imagen32.jpg);
+  opacity: 0.7;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  margin-top:25px;
+  margin-bottom: 15px;
+}
+.text {
+  color: black;
+  text-align: center;
+}
+label {
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.btn-program {
+  padding: 20px;
+  border-radius: 15px;
+  transition: all 0.8s ease;
+}
+.btn-program:hover {
+  background-color: rgba(10, 224, 10, 0.932);
+}
+
+/*Estilos icono whatsapp*/
+.whatsapp {
+  width: 85px;
+  height: 85px;
+  display: block;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1000;
+  position: fixed;
+}

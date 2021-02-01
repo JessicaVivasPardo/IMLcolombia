@@ -1,0 +1,121 @@
+.icon {
+    height:65px;
+    width:50px;
+}
+#chatIcon{
+
+    font-size: 25px;   
+    text-align: center;
+
+}
+.dropdown-item:hover{
+    background-color: rgb(31, 164, 182);
+}
+h1{
+    margin-top: 25px;
+    color: rgb(31, 164, 182);
+    text-align: center;
+    font-size: 50px;
+}
+video{
+    justify-content: center; 
+    border-radius: 5%;
+    
+}
+.container{
+   width: 100%;
+   justify-content: center;
+   
+}
+.content{
+    margin-top: 30px;
+    text-align: justify;
+    position: relative;
+    background-color: rgba(31, 164, 182, 0.678);    
+}
+.image{
+
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    filter: grayscale(100%);
+    margin-bottom: 40px;
+    
+}
+.parrafo{
+    
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translate(-10%, -10%);
+    -ms-transform: translate(-10%,-10%);
+    font-size: 18px;
+    color: white;
+}
+.content:hover .image{
+    opacity: 0.3;
+    
+}
+.content:hover .parrafo{
+    opacity: 1;
+    
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 25px;
+    border-bottom: rgb(31, 164, 182) solid 1.5px;
+    color: rgb(31, 164, 182);
+}
+.page-footer{
+    background-color: rgb(31, 164, 182);
+    margin-top: 35px;
+    background-color: rgb(31, 164, 182);
+    margin-top: 30px;
+    color: white;
+}
+.page-footer li a{
+
+    color: white; 
+    text-decoration: none;
+} 
+/*Estilo de la sección del contacto*/
+.card-contact{
+    margin: 20px 15px;
+    padding: 20px;
+
+}
+.card-contact:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.btn-contact{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(31, 164, 182);
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.8s ease;
+    
+}
+.btn-contact:hover {
+    background-color: rgb(131, 126, 126);
+    color: white;
+    text-decoration: none;
+}
+/*Estilos icono whatsapp*/
+.whatsapp{
+    width: 85px;
+    height: 85px;
+    display: block;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1000;
+    position: fixed;
+  }
